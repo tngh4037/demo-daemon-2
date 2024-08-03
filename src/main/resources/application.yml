@@ -1,0 +1,11 @@
+thread:
+  pool:
+    size: 10
+
+cron:
+  # 매 10초마다
+  MonitoringJob: 0/10 * * * * *
+  # 매일 오전 1시 1분
+  GoodsSalesStatJob: 00 01 01 * * *
+  # 매일 오전 9시 2분
+  EventAlarmJob: 00 02 09 * * *
