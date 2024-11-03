@@ -9,6 +9,8 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 
+// TODO::// 우아한 종료 구현 여부 체크하기
+// TODO::// ThreadPoolTaskScheduler 기본 스레드풀 전략 체크
 @EnableAsync // Async 활성화
 @EnableScheduling // 스케줄러 활성화
 @SpringBootApplication
